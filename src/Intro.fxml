@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: Gray;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.IntroController">
+   <Button fx:id="exportButton" layoutX="225.0" layoutY="250.0" mnemonicParsing="false" onAction="#goToExport" prefHeight="100.0" prefWidth="150.0" text="Export">
+      <cursor>
+         <Cursor fx:constant="HAND" />
+      </cursor></Button>
+   <Button fx:id="importButton" layoutX="224.0" layoutY="100.0" mnemonicParsing="false" onAction="#goToImport" prefHeight="100.0" prefWidth="150.0" text="Import">
+      <cursor>
+         <Cursor fx:constant="HAND" />
+      </cursor></Button>
+   <Text fx:id="title" fill="#efe5e5" layoutX="126.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="UML diagram converter" wrappingWidth="345.7408447265625">
+      <font>
+         <Font name="Comic Sans MS" size="30.0" />
+      </font>
+   </Text>
+</AnchorPane>

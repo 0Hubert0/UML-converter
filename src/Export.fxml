@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ExportController">
+   <children>
+      <Rectangle fx:id="toolbar" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="100.0" stroke="BLACK" strokeType="INSIDE" width="600.0" />
+      <Button fx:id="addClassButton" layoutX="200.0" layoutY="24.0" maxWidth="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#addClass" prefWidth="90.0" text="add class">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="previewButton" layoutX="290.0" layoutY="24.0" maxWidth="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#showPreview" prefWidth="80.0" text="preview">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="exportButton" layoutX="506.0" layoutY="24.0" maxWidth="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#export" prefWidth="70.0" text="export">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="downloadButton" layoutX="377.0" layoutY="24.0" mnemonicParsing="false" onAction="#download" prefWidth="150.0" text="download Image">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="returnButton" layoutX="20.0" layoutY="25.0" mnemonicParsing="false" onAction="#goToIntro" prefHeight="50.0" prefWidth="100.0" text="return">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ScrollPane fx:id="scrollPane" layoutY="100.0" prefHeight="300.0" prefWidth="600.0">
+        <content>
+          <AnchorPane fx:id="background" minHeight="0.0" minWidth="0.0" prefHeight="279.0" prefWidth="594.0" />
+        </content>
+      </ScrollPane>
+      <CheckBox fx:id="showRectangles" layoutX="166.0" layoutY="66.0" mnemonicParsing="false" selected="true" text="Show editing options" />
+   </children>
+</AnchorPane>
