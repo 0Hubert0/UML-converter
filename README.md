@@ -3,9 +3,9 @@
 (for a correct built pictures files need to be in the main/workspace folder)
 The program was made as an Internal Assessment for the IB diploma programme.
 
-A program enabling a user to convert Java code (with maintained coding standards) into UML diagrams that can be later saved as an image.
+A program enabling user to convert Java code (with maintained coding standards) into UML diagrams that can be later saved as an image.
 It also makes it possible to create own diagrams and convert them into skeleton of a code. Both created diagrams and code could be later saved.
 
-Further presentation can be seen in the video attached in the repository (It was recorded more than half a year ago).
+Further presentation can be seen in the video attached in the repository and the file showing and explaining some of the code. Both files were created as a part of the assessment to the exam.
 
 The program works in most cases.
